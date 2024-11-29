@@ -1,12 +1,30 @@
-<<<<<<< HEAD
-# React + Vite
+# Web Design Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **web design implementation** using **React**, **Vite**, and **Tailwind CSS**. The purpose of this project is to explore and demonstrate modern web design techniques.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
-# WebDesignFinal
->>>>>>> 4542ff95fe5da9a53142c9cb5197fcb63da9f27c
+## Features
+- Responsive and accessible layouts
+- Tailored UI components styled with Tailwind CSS
+- Fast and efficient development environment powered by Vite
+- Modern React hooks and state management for interactivity
+
+---
+
+## Project Purpose
+
+The purpose of this project is to:
+- Implement **modern web design techniques**.
+- Develop a functional and visually appealing **user interface**.
+- Improve skills in **React**, **Vite**, and **Tailwind CSS**.
+- Experiment with design concepts like **typography**, **color theory**, and **layout principles**.
+
+---
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
