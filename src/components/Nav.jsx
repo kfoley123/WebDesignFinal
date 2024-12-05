@@ -10,7 +10,7 @@ export default function Nav(){
 
     return (
         <>
-            <nav className="bg-white fixed w-full z-20 top-0 start-0 border-b">
+            <nav className=" block bg-white fixed w-full z-20 top-0 start-0 border-b">
                 <div className="max-w-screen-xl flex items-center justify-between p-1 md:px-5 mx-auto">
                     <a href="#" className="flex items-center">
                         <img src="/images/hires-logo.png" style={{ width: '110px', height: 'auto' }}  alt="Toronto Cupcake Logo" />
