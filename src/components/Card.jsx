@@ -1,6 +1,6 @@
 export default function Card({ name, image }) {
     return (
-        <div className="flex flex-col items-center justify-center border-2 border-black p-2 my-5 mx-3 w-40  lg:w-60">
+        <div className="flex flex-col items-center justify-center border-2 border-black p-2 my-5 mx-3 w-40 lg:w-60">
         <img 
             src={image} 
             alt={name} 
