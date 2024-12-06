@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
+import {  Link } from 'react-router-dom';
 
 export default function Nav(){
+    
+
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
@@ -12,9 +15,9 @@ export default function Nav(){
         <>
             <nav className=" block bg-white fixed w-full z-20 top-0 start-0 border-b">
                 <div className="max-w-screen-xl flex items-center justify-between p-1 md:px-5 mx-auto">
-                    <a href="#" className="flex items-center">
+                    <Link to="/" className="flex items-center">
                         <img src="/images/hires-logo.png" style={{ width: '110px', height: 'auto' }}  alt="Toronto Cupcake Logo" />
-                    </a>
+                    </Link>
                     <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                        <img src="/images/cart-icon.png" className="w-14 h-14 md:w-10 md:h-10" alt="shopping cart icon" />
                         <button
@@ -42,32 +45,32 @@ export default function Nav(){
                         <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
                             <li>
                             <div className="flex flex-row items-center">
-                                <a href="#" className="block py-2 px-3 text-customPink text-base md:text-lg lg:text-3xl md:p-0">Home</a>
+                                <Link to="/" className="block py-2 px-3 text-customPink text-base md:text-lg lg:text-3xl md:p-0">Home</Link>
                                 <span className="ml-2 pb-2 text-3xl md:text-xl text-customPink ">⌄</span>
                                 </div>
                             </li>
                             <li>
                                 <div className="flex flex-row items-center">
-                                <a href="#" className="block py-2 px-3 text-customPink text-base md:text-lg lg:text-3xl md:p-0">About</a>
+                                <Link to="/about" className="block py-2 px-3 text-customPink text-base md:text-lg lg:text-3xl md:p-0">About</Link>
                                 <span className="ml-2 pb-2 text-3xl md:text-xl text-customPink ">⌄</span>
                                 </div>
                                 
                             </li>
                             <li>
                             <div className="flex flex-row items-center">
-                                <a href="#" className="block py-2 px-3 text-customPink text-base md:text-lg lg:text-3xl md:p-0">Cupcakes</a>
+                                <Link to="#" className="block py-2 px-3 text-customPink text-base md:text-lg lg:text-3xl md:p-0">Cupcakes</Link>
                                 <span className="ml-2 pb-2 text-3xl md:text-xl text-customPink ">⌄</span>
                                 </div>
                             </li>
                             <li>
                             <div className="flex flex-row items-center">
-                                <a href="#" className="block py-2 px-3 text-customPink text-base md:text-lg lg:text-3xl md:p-0">Contact</a>
+                                <Link to="#" className="block py-2 px-3 text-customPink text-base md:text-lg lg:text-3xl md:p-0">Contact</Link>
                                 <span className="ml-2 pb-2 text-3xl md:text-xl text-customPink ">⌄</span>
                                 </div>
                             </li>
                             <li>
                             <div className="flex flex-row items-center">
-                                <a href="#" className="block py-2 px-3 text-customPink text-base md:text-lg lg:text-3xl md:p-0">Community</a>
+                                <Link to="#" className="block py-2 px-3 text-customPink text-base md:text-lg lg:text-3xl md:p-0">Community</Link>
                                 <span className="ml-2 pb-2 text-3xl md:text-xl text-customPink ">⌄</span>
                                 </div>
                             </li>
