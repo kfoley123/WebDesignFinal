@@ -1,7 +1,14 @@
+import Heading from "./Heading";
+import OurStory from "./OurStory";
+import FAQ from "./FAQ";
+
+
 export default function About(){
     return (
         <>
-        <p>this is the About component</p>
+            <Heading />
+            <OurStory />
+            <FAQ />
         </>
     )
 }
