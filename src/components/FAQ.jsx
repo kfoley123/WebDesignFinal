@@ -77,7 +77,7 @@ export default function FAQ(){
         style={{ backgroundImage: "url('/images/sprinkles.jpg')" }}
       >
        
-        <h1 className="font-bold text-white text-center drop-shadow-md text-5xl md:text-6xl py-8">
+        <h1 className="font-bold font-roboto text-outline text-white text-center text-5xl md:text-6xl py-8">
           FAQ
         </h1>
       

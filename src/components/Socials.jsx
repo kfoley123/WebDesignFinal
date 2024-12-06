@@ -4,8 +4,8 @@ export default function Socials(){
 
 const dummyInstagramPosts = [ 
     { caption: "check out our new lemon drop always available cupcakes!", image: "/images/yellow-cupcake.jpg", hashtags: ["#lemondrop", "#cupcake"], id: 1 },
-    { caption: "check out our new lemon drop always available cupcakes!", image: "/images/yellow-cupcake.jpg", hashtags: ["#lemondrop", "#cupcake"], id: 2 },
-    { caption: "check out our new lemon drop always available cupcakes!", image: "/images/yellow-cupcake.jpg", hashtags: ["#lemondrop", "#cupcake"], id: 3 }
+    { caption: "check out our new cinnamon bun always available cupcakes!", image: "/images/yellow-cupcake.jpg", hashtags: ["#cinnamon", "#cupcake"], id: 2 },
+    { caption: "check out our new fuzzy peach always available cupcakes!", image: "/images/yellow-cupcake.jpg", hashtags: ["#fuzzypeach", "#cupcake"], id: 3 }
 ]
     return (
         <>

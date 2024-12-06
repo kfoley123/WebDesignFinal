@@ -61,7 +61,7 @@ export default function Nav() {
                             <li key={menu}>
                                 <div className="flex flex-row items-center">
                                     <Link
-                                        to={`/${menu.toLowerCase()}`}
+                                        to={ menu === "Home" ? '/' :`/${menu.toLowerCase()}`}
                                         className="block py-2 px-3 text-customPink text-base md:text-lg lg:text-3xl md:p-0"
                                     >
                                         {menu}

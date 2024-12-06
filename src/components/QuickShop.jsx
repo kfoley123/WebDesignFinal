@@ -3,7 +3,7 @@ import Card from "./Card";
 export default function QuickShop() {
   const inStockItems = [
     { name: "Red Velvet Raspberry Cupcake", image: "/images/redvelvetraspberry.webp", id: 1 },
-    { name: "Lemon Drop Deluxe Cupcake", image: "/images/lemon.webp", id: 2 },
+    { name: "Extreme Lemon Drop Deluxe Cupcake", image: "/images/lemon.webp", id: 2 },
     { name: "Chocolate Oreo Crumble Cupcake", image: "/images/chocolateoreo.webp", id: 3 },
     { name: "Hot Fudge Sundae Cupcake", image: "/images/hotfudgesundae.webp", id: 4 }
   ];

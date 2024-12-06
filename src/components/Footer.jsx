@@ -6,7 +6,7 @@ export default function Footer() {
             <div className="flex flex-wrap justify-between items-start">
                 
                 {/* Contact Section */}
-                <div className="flex flex-col items-center md:items-start mb-8 md:mb-0 w-full md:w-1/2">
+                <div className="flex flex-col drop-shadow-md items-center md:items-start mb-8 md:mb-0 w-full md:w-1/2">
                 <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
                 <div className="flex flex-col gap-4">
                     <div>
@@ -33,7 +33,7 @@ export default function Footer() {
                 </div>
         
                 {/* Links Section */}
-                <div className="flex flex-col items-center mt-8 md:items-start mb-8 md:mb-0 w-full md:w-1/4">
+                <div className="flex drop-shadow-md flex-col items-center mt-8 md:items-start mb-8 md:mb-0 w-full md:w-1/4">
                 <nav className="flex flex-col gap-2">
                     <a href="#" className="hover:underline text-xl">FAQ</a>
                     <a href="#" className="hover:underline text-xl">Locations</a>
@@ -49,7 +49,7 @@ export default function Footer() {
             </div>
         
             {/* Footer Bottom */}
-            <div className="mt-8 text-center">
+            <div className="mt-8 text-center drop-shadow-md">
                 <span>© {new Date().getFullYear()} Toronto Cupcake. All rights reserved.</span>
             </div>
             </div>
